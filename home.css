@@ -1,0 +1,43 @@
+div.new:hover{
+    width: 300px;
+    height: 350px;
+    /* transition:ease-out; */
+    -webkit-transform: rotate(360deg); /* Safari */
+    transform: rotate(360deg);
+    transition: width 2s, height 2s, transform 2s;
+    background: linear-gradient(rgb(63, 61, 61),rgb(192, 192, 111),grey);
+}
+.swing:hover{
+    
+        width: 300px;
+        height: 300px;
+        transition: width 2s, height 2s, transform 2s;
+        -webkit-transform: rotate(0deg); /* Safari */
+        transform: rotate(0deg);
+     
+    
+}
+a{
+    text-decoration: none;
+}
+.shield{
+    justify-content:space-between;
+}
+a:hover{
+    border: 1px solid white;
+    border-radius: 50px;
+    width: max-content;
+    color: aliceblue;
+    background-color: gold;
+}
+.troop{
+    position: fixed;
+    border: 2px dashed whitesmoke;
+    width: auto;
+    padding: 20px;
+    background-color: red;
+    top:550px;
+    left: 1250px;
+    border-radius: 50%;
+    z-index: 10;
+}
