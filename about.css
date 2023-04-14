@@ -1,0 +1,22 @@
+.troop{
+    position: fixed;
+    border: 2px dashed whitesmoke;
+    width: auto;
+    padding: 20px;
+    background-color: red;
+    top:550px;
+    left: 1250px;
+    border-radius: 50%;
+    z-index: 10;
+}
+a:hover{
+    border: 1px solid white;
+    border-radius: 50px;
+    width: max-content;
+    color: aliceblue;
+    background-color: gold;
+}
+
+a{
+    text-decoration: none;
+}
