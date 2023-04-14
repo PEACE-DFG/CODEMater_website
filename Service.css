@@ -10,14 +10,12 @@
     z-index: 10;
 }
 a:hover{
-    border-bottom:3px solid white;
-    border-radius:50px;
+    border-bottom: 3px solid white;
+    border-radius: 50px;
     width: max-content;
     color: aliceblue;
     background-color:rgb(32, 117, 207);
 }
-
 a{
     text-decoration: none;
 }
-
