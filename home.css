@@ -1,4 +1,4 @@
-div.new:hover{
+/* div.new:hover{
     width: 300px;
     height: 350px;
    
@@ -6,7 +6,7 @@ div.new:hover{
     transform: rotate(360deg);
     transition: width 2s, height 2s, transform 2s;
     background: linear-gradient(rgb(63, 61, 61),rgb(192, 192, 111),grey);
-}
+} */
 .swing:hover{
     
         width: 300px;
