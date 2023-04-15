@@ -141,7 +141,7 @@
             <label for="exampleFormControlTextarea1" class="form-label">Type your question here</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
-          <button type="button" class="btn btn-dark">Submit</button>
+          <input type="button" id="btnShowMsg" value="Submit" onClick="showMessage()" />
 
 
     </div>
@@ -240,7 +240,11 @@
 
 
 
-
+  <script type="text/javascript">
+    function showMessage() {
+        alert("Thank You For Consulting Us, Your Question Will Be Answered Shortly");
+    }
+</script>
 
 
   
